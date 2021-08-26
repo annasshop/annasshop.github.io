@@ -1,0 +1,25 @@
+body {
+    margin: 10px;
+    background-color: rgb(249, 186, 255);
+}
+h1 {
+    border: solid 1px blue;
+    display: inline-block;
+    font-size: 100px;
+    border-radius: 25px;
+    background-color: lightblue;
+    padding-bottom: 10px;
+    font-family: 'Anton';
+}
+.unterueberschrift {
+    text-align: center;
+}
+.card {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 991px) {
+    .fragenueberschrift {
+        margin-top: 20px;
+    }
+}
